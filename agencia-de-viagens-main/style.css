@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+.limitar-secao{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* TOPO */
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+header img{
+    width: 32px;
+    height: 32px;
+}
+header .topo a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #5d15d1;
+}
+header nav a{
+    text-decoration: none;
+    
+    font-weight: bold;
+    margin-left: 10px;
+    color: #5d15d1;
+}
+span#burguer{
+    color: #5d15d1;
+}
+/* FINAL DO TOPO INICIO DO FORMULARIO */
+.formulario{
+    background: url(imagens/bahia.jpg) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    padding: 50px 0;
+}
+.orcamento{
+    width: 100%;
+    height: 40px;
+    background-color: #5d15d1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.orcamento img{
+    width: 25px;
+    height: 25px;
+    transform: rotate(-45deg);
+}
+.dados{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    padding: 15px 0;
+}
+.limitar-largura{
+    max-width: 920px;
+    margin: 0 auto;
+}
+.label{
+    padding: 10px 0;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 5px 3px;
+    box-sizing: border-box;
+
+}
+select{
+    width: 100%;
+    padding: 5px 3px;
+
+}
+.datas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.container-data{
+   width: 50%;
+}
+.container-dest{
+    width: 50%;
+}
+.radio{
+    display: flex;
+    width: 20px;
+    justify-content: space-between;
+    gap: 5px;
+}
+.radio-container{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    gap: 100px;
+    font-weight: bold;
+}
+.checkbox-cointainer{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:715px){
+    .checkbox-cointainer{
+        width: 100%;
+    }
+}
+.checkbox{
+    width: 120px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+   gap: 5px;
+}
+
+.checkbox input{
+    width: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #5d15d1;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Final do Formulário */
+
+/* SECAO SOBRE */
+
+#sobre{
+    margin-top: 60px;
+    text-align: center;
+}
+#sobre h1{
+    color: #5d15d1;
+}
+#sobre p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* FINAL SECAO SOBRE */
+
+/* INICIO SECAO OFERTAS */
+.ofertas{
+    height: 500px;
+    width: 100%;
+}
+.inicio-ofertas h1{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.explore h1{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.explore, .inicio-ofertas p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.inicio-ofertas span{
+    font-weight: bold;
+}
+.primeira-secao{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imagem-rj{
+ width: 500px;
+}
+.imagem-rj img{
+    width: 100%;
+    height: 415px;
+}
+.imagens-cidades{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.cidades{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.cidades div{
+    width: 50vw;
+    
+}
+.imagens-cidades figure{
+    height: 200px;
+    margin-right: 10px;
+}
+.imagens-cidades img{
+    width: 105%;
+    height: 100%;
+}
+.imagem-rj, .cidades div{
+    position: relative;
+}
+figcaption{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 248px;
+    padding: 5px;
+    box-sizing: border-box;
+    top: 170px;
+    left: 0;
+}
+.imagem-rj figcaption{
+    width: 500px;
+    position: absolute;
+    top: 385px;
+}
+
+.explore img{
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+.explore-conteudo{
+    height: 80px;
+    background-color: #fff;
+}
+.explore-conteudo h3{
+    font-size: 18px;
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.explore-conteudo p{
+    color: grey;
+    font-size: 13px;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+/* FINAL DE OFERTAS */
+.esperar h1{
+    color: #5d15d1;
+}
+.esperar ul{
+    margin-top: 15px;
+}
+.esperar li{
+    margin-top: 5px;
+
+font-weight: bold;}
+.oque{
+    max-width: 350px;
+    margin: 30px auto;
+}
+
+/* INICIO DA TABELA */
+table{
+    width: 60vw;
+}
+#precos table{
+    max-width: 1024px;
+    margin: 40px auto;
+}
+table caption{
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d15d1;
+    margin-bottom: 20px;
+}
+table th{
+    padding: 5px 15px;
+}
+table td{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+table tr:nth-child(even){
+    background-color: white;
+}
+table tr:nth-child(odd){
+    background-color: #ddd;
+}
+table thead th{
+    background-color: white;
+}
+/* FINAL DA TABELA */
+/*RODAPÉ*/
+footer{
+    height: 230px;
+    width: 100%;
+    background-color: #5d15d1;
+    color: white;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: nowrap;
+}
+.conteudo-rodape{
+    margin-top: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+.rodape p{
+   margin-left: 26px;
+   font-size: 16px;
+   padding: 10px 0; 
+}
+.contato-cidade::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/local.png);
+}
+.contato-telefone::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/telefone.png);
+}
+.contato-email::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/email.png);
+}
+.face::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/fb.png);
+}
+.insta::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/ig.png);
+}
+.twt::before{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url(imagens/tt.png);
+}
+.des{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.fechar{
+    display: none;
+}
+.menu{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.mascara{
+    display: none;
+}
+
+@media (max-width:1005px){
+    .ofertas{
+        height: auto;
+        text-align: center;
+    }
+    .imagem-rj{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .imagens-cidades{
+        margin: 10px auto;
+        width: 85%;
+    }
+    figcaption{
+        width: 100%;
+    }
+    .imagem-rj figcaption{
+        width: 100%;
+    }
+    .cidades{
+        gap: 10px;
+    }
+    .secao-explore{
+        text-align: center;
+        margin-top: 10px;
+    }
+   .explore{
+    width: 90vw;
+    margin: 10px auto;
+    text-align: center;
+   }
+   .explore img{
+    width: 90vw;
+   }
+   .orcamento, .dados{
+    width: 85vw;
+    padding: 5px 10px;
+   }
+   
+   
+}
+@media (min-width:670px) and (max-width:999px){
+    figcaption{
+        width: 101%;
+    }
+    
+}
+@media (max-width:480px){
+    
+    figcaption{
+        width: 99%;
+    }
+
+    .mascara{
+    width: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    
+    width: 100%;
+    right: 0;
+    left: 300px;    		
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    opacity: 0;
+    z-index: -1;	
+    transition: all 1s ease;
+}
+
+#abrir:target{
+    opacity: 1;
+    z-index: 9;		
+}
+.menu{
+    display: block;
+}
+.fechar{
+    display: block;
+}
+.fechar a{
+    color: red;
+    text-decoration: none;		
+    opacity: 9;
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+.menu-mobile li a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+}
+.esperar{
+    width: 70%;
+    margin-left: 30px;
+}
+.conteudo-rodape{
+    width: 80%;
+}
+.rodape{
+    width: 80%;
+    margin: 0 0;
+}
+.rodape p{
+    font-size: 14px;
+}
+}
+@media (max-width:680px){
+    header nav a{
+        display: none;
+    }
+    .mascara{
+        width: 0px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        left: 250px;    		
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        opacity: 0;
+        z-index: -1;	
+        transition: all 1s ease;
+    }
+
+    #abrir:target{
+        opacity: 1;
+        z-index: 9;		 
+    }
+    .menu{
+        display: block;
+    }
+    .fechar{
+        display: block;
+    }
+    .fechar a{
+        color: red;
+        text-decoration: none;		
+        opacity: 9;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .mascara{
+        display: block;
+    }
+    table{
+        display: none;
+    }
+}
