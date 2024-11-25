@@ -12,14 +12,14 @@
           <div class = "container">
           <div class="topo">
             <img src="imagens/local-logo.png" alt="">
-            <a href="index.html">AGÊNCIA DE VIAGENS</a>
+            <a href="main.php">AGÊNCIA DE VIAGENS</a>
           </div>
 
           <a class="menu"href="#abrir"><span class="material-symbols-outlined" id="burguer">menu</span></a>
           
       
           <nav id="itens">
-            <a href="#orcamento">Orçamento</a>
+            <a href="Formulario.php">aaaa</a>
             <a href="#sobre">Sobre Nós</a>
             <a href="#ofertas">Ofertas</a>
             <a href="#precos">Preços</a>
