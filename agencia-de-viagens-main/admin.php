@@ -64,7 +64,7 @@ $result = $conn->query($sql);
         <?php } ?>
     </div>
 </body>
-</html>
+
 
 <?php
 $conn->close();

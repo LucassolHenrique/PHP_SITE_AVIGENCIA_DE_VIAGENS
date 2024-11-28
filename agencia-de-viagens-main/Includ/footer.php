@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+
 <footer id="contato">
     <div class="rodape limitar-secao">
     <div class="conteudo-rodape">
@@ -14,7 +14,7 @@
       <p class="twt">@AgenciaDeViagem</p>
     </div>
   </div>
-    <p class="des">&copy;Desenvolvido por Gabriel Lessa</p>
+    <p class="des">&copy;desenvolvido pelo Grupo dos rapazes</p>
   </footer>
   </body>
 </html>
