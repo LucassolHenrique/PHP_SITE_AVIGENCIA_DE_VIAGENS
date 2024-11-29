@@ -17,29 +17,29 @@ $title = "Criação de conta";
 
     <div class="primeira-secao">
       <div class="imagem-rj">
-        <figure><img src="imagens/rio.jpg" alt=""></figure>
+        <figure><img src="../imagens/rio.jpg" alt=""></figure>
         <figcaption>Rio de Janeiro</figcaption>
       </div>
 
       <div class="imagens-cidades">
         <div class="cidades">
           <div>
-            <figure><img src="imagens/manaus.jpg" alt=""></figure>
+            <figure><img src="../imagens/manaus.jpg" alt=""></figure>
             <figcaption>Manaus</figcaption>
           </div>
           <div>
-            <figure><img src="imagens/niteroi.jpg" alt=""></figure>
+            <figure><img src="../imagens/niteroi.jpg" alt=""></figure>
             <figcaption>Rio de janeiro</figcaption>
           </div>
         </div>
         <div class="cidades">
           <div>
-            <figure><img src="imagens/saopaulo.jpg" alt=""></figure>
+            <figure><img src="../imagens/saopaulo.jpg" alt=""></figure>
             <figcaption>São Paulo</figcaption>
           </div>
 
           <div>
-            <figure><img src="imagens/maranhao.jpg" alt=""></figure>
+            <figure><img src="../imagens/maranhao.jpg" alt=""></figure>
             <figcaption>Maranhão</figcaption>
           </div>
         </div>

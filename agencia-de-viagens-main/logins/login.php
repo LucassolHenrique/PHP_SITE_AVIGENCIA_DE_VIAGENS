@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <h1>Insira seus dados</h1>
             </div>
             <!-- Formulário de Login -->
-            <form action="../paginas (logins)/login.php" method="POST">
+            <form action="../logins/login.php" method="POST">
                 <?php if (isset($error)) {
                     echo "<p class='error'>$error</p>";
                 } ?>

@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Executa a consulta no banco de dados
         try {
             $stmt->execute(); // Executa a inserção
-            header("Location: ../paginas (logins)/login.php");
+            header("Location: ../logins/login.php");
             exit();            
         } catch (PDOException $e) {
             // Em caso de erro, exibe a mensagem de erro
