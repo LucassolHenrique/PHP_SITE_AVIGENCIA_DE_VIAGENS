@@ -571,3 +571,54 @@ footer{
         display: none;
     }
 }
+.body-principal {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.arquivos-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arquivos-titulo {
+    text-align: center;
+    color: #333;
+}
+
+.arquivo-item {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arquivo-nome {
+    font-size: 16px;
+    color: #555;
+}
+
+.arquivo-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.arquivo-link:hover {
+    text-decoration: underline;
+}

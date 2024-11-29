@@ -40,3 +40,7 @@ if (!isset($_SESSION['user_id'])) {
 
 </body>
 </html>
+<?php
+//chama o footer
+include '../Includ/footer.php';
+?>
